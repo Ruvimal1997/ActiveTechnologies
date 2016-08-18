@@ -28,38 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_ClientID = new MetroFramework.Controls.MetroLabel();
             this.Txt_Client_ID = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_Fname = new MetroFramework.Controls.MetroLabel();
             this.Txt_Fname = new MetroFramework.Controls.MetroTextBox();
             this.Txt_LName = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_LName = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_Title = new MetroFramework.Controls.MetroLabel();
             this.Cmb_Title = new MetroFramework.Controls.MetroComboBox();
             this.Txt_Company = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_Company = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_AddNo = new MetroFramework.Controls.MetroLabel();
             this.Txt_AddNo = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_PhoneNo = new MetroFramework.Controls.MetroLabel();
             this.Txt_PhoneNo = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_City = new MetroFramework.Controls.MetroLabel();
             this.Txt_City = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_Street = new MetroFramework.Controls.MetroLabel();
             this.Txt_Street = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_Email = new MetroFramework.Controls.MetroLabel();
             this.Txt_Email = new MetroFramework.Controls.MetroTextBox();
             this.Btn_Save = new MetroFramework.Controls.MetroButton();
             this.Btn_Back = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
-            // metroLabel1
+            // Lbl_ClientID
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(56, 105);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(58, 19);
-            this.metroLabel1.TabIndex = 0;
-            this.metroLabel1.Text = "Client ID";
+            this.Lbl_ClientID.AutoSize = true;
+            this.Lbl_ClientID.Location = new System.Drawing.Point(56, 105);
+            this.Lbl_ClientID.Name = "Lbl_ClientID";
+            this.Lbl_ClientID.Size = new System.Drawing.Size(58, 19);
+            this.Lbl_ClientID.TabIndex = 0;
+            this.Lbl_ClientID.Text = "Client ID";
             // 
             // Txt_Client_ID
             // 
@@ -92,14 +92,14 @@
             this.Txt_Client_ID.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Txt_Client_ID.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel2
+            // Lbl_Fname
             // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(56, 152);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(73, 19);
-            this.metroLabel2.TabIndex = 2;
-            this.metroLabel2.Text = "First Name";
+            this.Lbl_Fname.AutoSize = true;
+            this.Lbl_Fname.Location = new System.Drawing.Point(56, 152);
+            this.Lbl_Fname.Name = "Lbl_Fname";
+            this.Lbl_Fname.Size = new System.Drawing.Size(73, 19);
+            this.Lbl_Fname.TabIndex = 2;
+            this.Lbl_Fname.Text = "First Name";
             // 
             // Txt_Fname
             // 
@@ -163,23 +163,23 @@
             this.Txt_LName.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Txt_LName.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel3
+            // Lbl_LName
             // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(58, 193);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(71, 19);
-            this.metroLabel3.TabIndex = 4;
-            this.metroLabel3.Text = "Last Name";
+            this.Lbl_LName.AutoSize = true;
+            this.Lbl_LName.Location = new System.Drawing.Point(58, 193);
+            this.Lbl_LName.Name = "Lbl_LName";
+            this.Lbl_LName.Size = new System.Drawing.Size(71, 19);
+            this.Lbl_LName.TabIndex = 4;
+            this.Lbl_LName.Text = "Last Name";
             // 
-            // metroLabel4
+            // Lbl_Title
             // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(402, 105);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(33, 19);
-            this.metroLabel4.TabIndex = 6;
-            this.metroLabel4.Text = "Title";
+            this.Lbl_Title.AutoSize = true;
+            this.Lbl_Title.Location = new System.Drawing.Point(402, 105);
+            this.Lbl_Title.Name = "Lbl_Title";
+            this.Lbl_Title.Size = new System.Drawing.Size(33, 19);
+            this.Lbl_Title.TabIndex = 6;
+            this.Lbl_Title.Text = "Title";
             // 
             // Cmb_Title
             // 
@@ -222,23 +222,23 @@
             this.Txt_Company.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Txt_Company.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel5
+            // Lbl_Company
             // 
-            this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(56, 233);
-            this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(66, 19);
-            this.metroLabel5.TabIndex = 8;
-            this.metroLabel5.Text = "Company";
+            this.Lbl_Company.AutoSize = true;
+            this.Lbl_Company.Location = new System.Drawing.Point(56, 233);
+            this.Lbl_Company.Name = "Lbl_Company";
+            this.Lbl_Company.Size = new System.Drawing.Size(66, 19);
+            this.Lbl_Company.TabIndex = 8;
+            this.Lbl_Company.Text = "Company";
             // 
-            // metroLabel6
+            // Lbl_AddNo
             // 
-            this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(56, 272);
-            this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(78, 19);
-            this.metroLabel6.TabIndex = 10;
-            this.metroLabel6.Text = "Address No";
+            this.Lbl_AddNo.AutoSize = true;
+            this.Lbl_AddNo.Location = new System.Drawing.Point(56, 272);
+            this.Lbl_AddNo.Name = "Lbl_AddNo";
+            this.Lbl_AddNo.Size = new System.Drawing.Size(78, 19);
+            this.Lbl_AddNo.TabIndex = 10;
+            this.Lbl_AddNo.Text = "Address No";
             // 
             // Txt_AddNo
             // 
@@ -271,14 +271,14 @@
             this.Txt_AddNo.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Txt_AddNo.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel7
+            // Lbl_PhoneNo
             // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(402, 233);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(68, 19);
-            this.metroLabel7.TabIndex = 12;
-            this.metroLabel7.Text = "Phone No";
+            this.Lbl_PhoneNo.AutoSize = true;
+            this.Lbl_PhoneNo.Location = new System.Drawing.Point(402, 233);
+            this.Lbl_PhoneNo.Name = "Lbl_PhoneNo";
+            this.Lbl_PhoneNo.Size = new System.Drawing.Size(68, 19);
+            this.Lbl_PhoneNo.TabIndex = 12;
+            this.Lbl_PhoneNo.Text = "Phone No";
             // 
             // Txt_PhoneNo
             // 
@@ -311,14 +311,14 @@
             this.Txt_PhoneNo.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Txt_PhoneNo.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel8
+            // Lbl_City
             // 
-            this.metroLabel8.AutoSize = true;
-            this.metroLabel8.Location = new System.Drawing.Point(402, 272);
-            this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(31, 19);
-            this.metroLabel8.TabIndex = 14;
-            this.metroLabel8.Text = "City";
+            this.Lbl_City.AutoSize = true;
+            this.Lbl_City.Location = new System.Drawing.Point(402, 272);
+            this.Lbl_City.Name = "Lbl_City";
+            this.Lbl_City.Size = new System.Drawing.Size(31, 19);
+            this.Lbl_City.TabIndex = 14;
+            this.Lbl_City.Text = "City";
             // 
             // Txt_City
             // 
@@ -351,14 +351,14 @@
             this.Txt_City.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Txt_City.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel9
+            // Lbl_Street
             // 
-            this.metroLabel9.AutoSize = true;
-            this.metroLabel9.Location = new System.Drawing.Point(56, 306);
-            this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(43, 19);
-            this.metroLabel9.TabIndex = 16;
-            this.metroLabel9.Text = "Street";
+            this.Lbl_Street.AutoSize = true;
+            this.Lbl_Street.Location = new System.Drawing.Point(56, 306);
+            this.Lbl_Street.Name = "Lbl_Street";
+            this.Lbl_Street.Size = new System.Drawing.Size(43, 19);
+            this.Lbl_Street.TabIndex = 16;
+            this.Lbl_Street.Text = "Street";
             // 
             // Txt_Street
             // 
@@ -391,14 +391,14 @@
             this.Txt_Street.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Txt_Street.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel10
+            // Lbl_Email
             // 
-            this.metroLabel10.AutoSize = true;
-            this.metroLabel10.Location = new System.Drawing.Point(56, 342);
-            this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(41, 19);
-            this.metroLabel10.TabIndex = 18;
-            this.metroLabel10.Text = "Email";
+            this.Lbl_Email.AutoSize = true;
+            this.Lbl_Email.Location = new System.Drawing.Point(56, 342);
+            this.Lbl_Email.Name = "Lbl_Email";
+            this.Lbl_Email.Size = new System.Drawing.Size(41, 19);
+            this.Lbl_Email.TabIndex = 18;
+            this.Lbl_Email.Text = "Email";
             // 
             // Txt_Email
             // 
@@ -458,25 +458,25 @@
             this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.Btn_Save);
             this.Controls.Add(this.Txt_Email);
-            this.Controls.Add(this.metroLabel10);
+            this.Controls.Add(this.Lbl_Email);
             this.Controls.Add(this.Txt_Street);
-            this.Controls.Add(this.metroLabel9);
+            this.Controls.Add(this.Lbl_Street);
             this.Controls.Add(this.Txt_City);
-            this.Controls.Add(this.metroLabel8);
+            this.Controls.Add(this.Lbl_City);
             this.Controls.Add(this.Txt_PhoneNo);
-            this.Controls.Add(this.metroLabel7);
+            this.Controls.Add(this.Lbl_PhoneNo);
             this.Controls.Add(this.Txt_AddNo);
-            this.Controls.Add(this.metroLabel6);
+            this.Controls.Add(this.Lbl_AddNo);
             this.Controls.Add(this.Txt_Company);
-            this.Controls.Add(this.metroLabel5);
+            this.Controls.Add(this.Lbl_Company);
             this.Controls.Add(this.Cmb_Title);
-            this.Controls.Add(this.metroLabel4);
+            this.Controls.Add(this.Lbl_Title);
             this.Controls.Add(this.Txt_LName);
-            this.Controls.Add(this.metroLabel3);
+            this.Controls.Add(this.Lbl_LName);
             this.Controls.Add(this.Txt_Fname);
-            this.Controls.Add(this.metroLabel2);
+            this.Controls.Add(this.Lbl_Fname);
             this.Controls.Add(this.Txt_Client_ID);
-            this.Controls.Add(this.metroLabel1);
+            this.Controls.Add(this.Lbl_ClientID);
             this.Name = "Clients";
             this.Text = "Clients";
             this.Load += new System.EventHandler(this.Clients_Load);
@@ -487,25 +487,25 @@
 
         #endregion
 
-        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroLabel Lbl_ClientID;
         private MetroFramework.Controls.MetroTextBox Txt_Client_ID;
-        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroLabel Lbl_Fname;
         private MetroFramework.Controls.MetroTextBox Txt_Fname;
         private MetroFramework.Controls.MetroTextBox Txt_LName;
-        private MetroFramework.Controls.MetroLabel metroLabel3;
-        private MetroFramework.Controls.MetroLabel metroLabel4;
+        private MetroFramework.Controls.MetroLabel Lbl_LName;
+        private MetroFramework.Controls.MetroLabel Lbl_Title;
         private MetroFramework.Controls.MetroComboBox Cmb_Title;
         private MetroFramework.Controls.MetroTextBox Txt_Company;
-        private MetroFramework.Controls.MetroLabel metroLabel5;
-        private MetroFramework.Controls.MetroLabel metroLabel6;
+        private MetroFramework.Controls.MetroLabel Lbl_Company;
+        private MetroFramework.Controls.MetroLabel Lbl_AddNo;
         private MetroFramework.Controls.MetroTextBox Txt_AddNo;
-        private MetroFramework.Controls.MetroLabel metroLabel7;
+        private MetroFramework.Controls.MetroLabel Lbl_PhoneNo;
         private MetroFramework.Controls.MetroTextBox Txt_PhoneNo;
-        private MetroFramework.Controls.MetroLabel metroLabel8;
+        private MetroFramework.Controls.MetroLabel Lbl_City;
         private MetroFramework.Controls.MetroTextBox Txt_City;
-        private MetroFramework.Controls.MetroLabel metroLabel9;
+        private MetroFramework.Controls.MetroLabel Lbl_Street;
         private MetroFramework.Controls.MetroTextBox Txt_Street;
-        private MetroFramework.Controls.MetroLabel metroLabel10;
+        private MetroFramework.Controls.MetroLabel Lbl_Email;
         private MetroFramework.Controls.MetroTextBox Txt_Email;
         private MetroFramework.Controls.MetroButton Btn_Save;
         private MetroFramework.Controls.MetroButton Btn_Back;
