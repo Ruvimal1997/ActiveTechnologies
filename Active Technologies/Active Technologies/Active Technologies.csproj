@@ -55,6 +55,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client Registration.Designer.cs">
+      <DependentUpon>Client Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clients Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients Details.Designer.cs">
+      <DependentUpon>Clients Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clients S.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients S.Designer.cs">
+      <DependentUpon>Clients S.cs</DependentUpon>
+    </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -70,6 +88,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Client Registration.resx">
+      <DependentUpon>Client Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients Details.resx">
+      <DependentUpon>Clients Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients S.resx">
+      <DependentUpon>Clients S.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

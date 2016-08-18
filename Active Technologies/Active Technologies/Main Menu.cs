@@ -29,5 +29,12 @@ namespace Active_Technologies
             f.Show();
             Close();
         }
+
+        private void Tile_Clients_Click(object sender, EventArgs e)
+        {
+            Clients c = new Clients();
+            c.Show();
+            Close();
+        }
     }
 }

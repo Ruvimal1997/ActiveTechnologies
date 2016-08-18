@@ -25,31 +25,37 @@ namespace Active_Technologies
         }
         string username, password;
         Database db = new Database();
+
+        private void Btn_Cancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            if (metroTextBox1.Text.Length > 0)
+            if (Txt_Username.Text.Length > 0)
             {
                 errorProvider1.Clear();
-                username = metroTextBox1.Text;
+                username = Txt_Username.Text;
             }
             else
             {
-                errorProvider1.SetError(metroTextBox1, "Username is required");
+                errorProvider1.SetError(Txt_Username, "Username is required");
             }
 
 
-            if (metroTextBox2.Text.Length > 8)
+            if (Txt_Password.Text.Length > 8)
             {
                 errorProvider2.Clear();
-                password = metroTextBox2.Text;
+                password = Txt_Password.Text;
             }
-            else if (metroTextBox2.Text.Length == 0)
+            else if (Txt_Password.Text.Length == 0)
             {
-                errorProvider2.SetError(metroTextBox2, "Password is required");
+                errorProvider2.SetError(Txt_Password, "Password is required");
             }
-            else if (metroTextBox2.Text.Length < 7)
+            else if (Txt_Password.Text.Length < 7)
             {
-                errorProvider2.SetError(metroTextBox2, "Password must contain more than 7 characters");
+                errorProvider2.SetError(Txt_Password, "Password must contain more than 7 characters");
             }
             //username = metroTextBox1.Text;
             //password = metroTextBox2.Text;

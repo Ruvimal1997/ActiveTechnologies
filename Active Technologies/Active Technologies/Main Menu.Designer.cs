@@ -28,195 +28,196 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroTile1 = new MetroFramework.Controls.MetroTile();
-            this.metroTile2 = new MetroFramework.Controls.MetroTile();
-            this.metroTile3 = new MetroFramework.Controls.MetroTile();
-            this.metroTile5 = new MetroFramework.Controls.MetroTile();
-            this.metroTile4 = new MetroFramework.Controls.MetroTile();
-            this.metroTile6 = new MetroFramework.Controls.MetroTile();
-            this.metroTile7 = new MetroFramework.Controls.MetroTile();
-            this.metroTile8 = new MetroFramework.Controls.MetroTile();
-            this.metroTile9 = new MetroFramework.Controls.MetroTile();
-            this.metroTile10 = new MetroFramework.Controls.MetroTile();
-            this.metroTile11 = new MetroFramework.Controls.MetroTile();
-            this.metroTile12 = new MetroFramework.Controls.MetroTile();
-            this.metroTile13 = new MetroFramework.Controls.MetroTile();
-            this.metroTile14 = new MetroFramework.Controls.MetroTile();
+            this.Tile_SalesOrder = new MetroFramework.Controls.MetroTile();
+            this.Tile_SaleNew = new MetroFramework.Controls.MetroTile();
+            this.Tile_SaleReports = new MetroFramework.Controls.MetroTile();
+            this.Tile_PurchaseOrder = new MetroFramework.Controls.MetroTile();
+            this.Tile_PurchaseNew = new MetroFramework.Controls.MetroTile();
+            this.Tile_PurchaseReports = new MetroFramework.Controls.MetroTile();
+            this.Tile_ServiceReports = new MetroFramework.Controls.MetroTile();
+            this.Tile_ServiceOrder = new MetroFramework.Controls.MetroTile();
+            this.Tile_ServiceNew = new MetroFramework.Controls.MetroTile();
+            this.Tile_Clients = new MetroFramework.Controls.MetroTile();
+            this.Tile_Items = new MetroFramework.Controls.MetroTile();
+            this.Tile_Packages = new MetroFramework.Controls.MetroTile();
+            this.Tile_Employees = new MetroFramework.Controls.MetroTile();
+            this.Tile_Logout = new MetroFramework.Controls.MetroTile();
             this.SuspendLayout();
             // 
-            // metroTile1
+            // Tile_SalesOrder
             // 
-            this.metroTile1.ActiveControl = null;
-            this.metroTile1.Location = new System.Drawing.Point(63, 109);
-            this.metroTile1.Name = "metroTile1";
-            this.metroTile1.Size = new System.Drawing.Size(152, 101);
-            this.metroTile1.Style = MetroFramework.MetroColorStyle.Purple;
-            this.metroTile1.TabIndex = 0;
-            this.metroTile1.Text = "Sales Order";
-            this.metroTile1.UseSelectable = true;
+            this.Tile_SalesOrder.ActiveControl = null;
+            this.Tile_SalesOrder.Location = new System.Drawing.Point(63, 109);
+            this.Tile_SalesOrder.Name = "Tile_SalesOrder";
+            this.Tile_SalesOrder.Size = new System.Drawing.Size(152, 101);
+            this.Tile_SalesOrder.Style = MetroFramework.MetroColorStyle.Purple;
+            this.Tile_SalesOrder.TabIndex = 0;
+            this.Tile_SalesOrder.Text = "Sales Order";
+            this.Tile_SalesOrder.UseSelectable = true;
             // 
-            // metroTile2
+            // Tile_SaleNew
             // 
-            this.metroTile2.ActiveControl = null;
-            this.metroTile2.Location = new System.Drawing.Point(221, 109);
-            this.metroTile2.Name = "metroTile2";
-            this.metroTile2.Size = new System.Drawing.Size(152, 101);
-            this.metroTile2.Style = MetroFramework.MetroColorStyle.Purple;
-            this.metroTile2.TabIndex = 1;
-            this.metroTile2.Text = "New";
-            this.metroTile2.UseSelectable = true;
+            this.Tile_SaleNew.ActiveControl = null;
+            this.Tile_SaleNew.Location = new System.Drawing.Point(221, 109);
+            this.Tile_SaleNew.Name = "Tile_SaleNew";
+            this.Tile_SaleNew.Size = new System.Drawing.Size(152, 101);
+            this.Tile_SaleNew.Style = MetroFramework.MetroColorStyle.Purple;
+            this.Tile_SaleNew.TabIndex = 1;
+            this.Tile_SaleNew.Text = "New";
+            this.Tile_SaleNew.UseSelectable = true;
             // 
-            // metroTile3
+            // Tile_SaleReports
             // 
-            this.metroTile3.ActiveControl = null;
-            this.metroTile3.Location = new System.Drawing.Point(379, 109);
-            this.metroTile3.Name = "metroTile3";
-            this.metroTile3.Size = new System.Drawing.Size(152, 101);
-            this.metroTile3.Style = MetroFramework.MetroColorStyle.Purple;
-            this.metroTile3.TabIndex = 2;
-            this.metroTile3.Text = "Reports";
-            this.metroTile3.UseSelectable = true;
+            this.Tile_SaleReports.ActiveControl = null;
+            this.Tile_SaleReports.Location = new System.Drawing.Point(379, 109);
+            this.Tile_SaleReports.Name = "Tile_SaleReports";
+            this.Tile_SaleReports.Size = new System.Drawing.Size(152, 101);
+            this.Tile_SaleReports.Style = MetroFramework.MetroColorStyle.Purple;
+            this.Tile_SaleReports.TabIndex = 2;
+            this.Tile_SaleReports.Text = "Reports";
+            this.Tile_SaleReports.UseSelectable = true;
             // 
-            // metroTile5
+            // Tile_PurchaseOrder
             // 
-            this.metroTile5.ActiveControl = null;
-            this.metroTile5.Location = new System.Drawing.Point(63, 216);
-            this.metroTile5.Name = "metroTile5";
-            this.metroTile5.Size = new System.Drawing.Size(152, 101);
-            this.metroTile5.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroTile5.TabIndex = 4;
-            this.metroTile5.Text = "Purchase Order";
-            this.metroTile5.UseSelectable = true;
+            this.Tile_PurchaseOrder.ActiveControl = null;
+            this.Tile_PurchaseOrder.Location = new System.Drawing.Point(63, 216);
+            this.Tile_PurchaseOrder.Name = "Tile_PurchaseOrder";
+            this.Tile_PurchaseOrder.Size = new System.Drawing.Size(152, 101);
+            this.Tile_PurchaseOrder.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Tile_PurchaseOrder.TabIndex = 4;
+            this.Tile_PurchaseOrder.Text = "Purchase Order";
+            this.Tile_PurchaseOrder.UseSelectable = true;
             // 
-            // metroTile4
+            // Tile_PurchaseNew
             // 
-            this.metroTile4.ActiveControl = null;
-            this.metroTile4.Location = new System.Drawing.Point(221, 216);
-            this.metroTile4.Name = "metroTile4";
-            this.metroTile4.Size = new System.Drawing.Size(152, 101);
-            this.metroTile4.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroTile4.TabIndex = 3;
-            this.metroTile4.Text = "New";
-            this.metroTile4.UseSelectable = true;
+            this.Tile_PurchaseNew.ActiveControl = null;
+            this.Tile_PurchaseNew.Location = new System.Drawing.Point(221, 216);
+            this.Tile_PurchaseNew.Name = "Tile_PurchaseNew";
+            this.Tile_PurchaseNew.Size = new System.Drawing.Size(152, 101);
+            this.Tile_PurchaseNew.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Tile_PurchaseNew.TabIndex = 3;
+            this.Tile_PurchaseNew.Text = "New";
+            this.Tile_PurchaseNew.UseSelectable = true;
             // 
-            // metroTile6
+            // Tile_PurchaseReports
             // 
-            this.metroTile6.ActiveControl = null;
-            this.metroTile6.Location = new System.Drawing.Point(379, 216);
-            this.metroTile6.Name = "metroTile6";
-            this.metroTile6.Size = new System.Drawing.Size(152, 101);
-            this.metroTile6.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroTile6.TabIndex = 5;
-            this.metroTile6.Text = "Reports";
-            this.metroTile6.UseSelectable = true;
+            this.Tile_PurchaseReports.ActiveControl = null;
+            this.Tile_PurchaseReports.Location = new System.Drawing.Point(379, 216);
+            this.Tile_PurchaseReports.Name = "Tile_PurchaseReports";
+            this.Tile_PurchaseReports.Size = new System.Drawing.Size(152, 101);
+            this.Tile_PurchaseReports.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Tile_PurchaseReports.TabIndex = 5;
+            this.Tile_PurchaseReports.Text = "Reports";
+            this.Tile_PurchaseReports.UseSelectable = true;
             // 
-            // metroTile7
+            // Tile_ServiceReports
             // 
-            this.metroTile7.ActiveControl = null;
-            this.metroTile7.Location = new System.Drawing.Point(379, 323);
-            this.metroTile7.Name = "metroTile7";
-            this.metroTile7.Size = new System.Drawing.Size(152, 101);
-            this.metroTile7.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroTile7.TabIndex = 8;
-            this.metroTile7.Text = "Reports";
-            this.metroTile7.UseSelectable = true;
+            this.Tile_ServiceReports.ActiveControl = null;
+            this.Tile_ServiceReports.Location = new System.Drawing.Point(379, 323);
+            this.Tile_ServiceReports.Name = "Tile_ServiceReports";
+            this.Tile_ServiceReports.Size = new System.Drawing.Size(152, 101);
+            this.Tile_ServiceReports.Style = MetroFramework.MetroColorStyle.Green;
+            this.Tile_ServiceReports.TabIndex = 8;
+            this.Tile_ServiceReports.Text = "Reports";
+            this.Tile_ServiceReports.UseSelectable = true;
             // 
-            // metroTile8
+            // Tile_ServiceOrder
             // 
-            this.metroTile8.ActiveControl = null;
-            this.metroTile8.Location = new System.Drawing.Point(63, 323);
-            this.metroTile8.Name = "metroTile8";
-            this.metroTile8.Size = new System.Drawing.Size(152, 101);
-            this.metroTile8.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroTile8.TabIndex = 7;
-            this.metroTile8.Text = "Service Order";
-            this.metroTile8.UseSelectable = true;
+            this.Tile_ServiceOrder.ActiveControl = null;
+            this.Tile_ServiceOrder.Location = new System.Drawing.Point(63, 323);
+            this.Tile_ServiceOrder.Name = "Tile_ServiceOrder";
+            this.Tile_ServiceOrder.Size = new System.Drawing.Size(152, 101);
+            this.Tile_ServiceOrder.Style = MetroFramework.MetroColorStyle.Green;
+            this.Tile_ServiceOrder.TabIndex = 7;
+            this.Tile_ServiceOrder.Text = "Service Order";
+            this.Tile_ServiceOrder.UseSelectable = true;
             // 
-            // metroTile9
+            // Tile_ServiceNew
             // 
-            this.metroTile9.ActiveControl = null;
-            this.metroTile9.Location = new System.Drawing.Point(221, 323);
-            this.metroTile9.Name = "metroTile9";
-            this.metroTile9.Size = new System.Drawing.Size(152, 101);
-            this.metroTile9.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroTile9.TabIndex = 6;
-            this.metroTile9.Text = "New";
-            this.metroTile9.UseSelectable = true;
+            this.Tile_ServiceNew.ActiveControl = null;
+            this.Tile_ServiceNew.Location = new System.Drawing.Point(221, 323);
+            this.Tile_ServiceNew.Name = "Tile_ServiceNew";
+            this.Tile_ServiceNew.Size = new System.Drawing.Size(152, 101);
+            this.Tile_ServiceNew.Style = MetroFramework.MetroColorStyle.Green;
+            this.Tile_ServiceNew.TabIndex = 6;
+            this.Tile_ServiceNew.Text = "New";
+            this.Tile_ServiceNew.UseSelectable = true;
             // 
-            // metroTile10
+            // Tile_Clients
             // 
-            this.metroTile10.ActiveControl = null;
-            this.metroTile10.Location = new System.Drawing.Point(379, 430);
-            this.metroTile10.Name = "metroTile10";
-            this.metroTile10.Size = new System.Drawing.Size(152, 101);
-            this.metroTile10.Style = MetroFramework.MetroColorStyle.Brown;
-            this.metroTile10.TabIndex = 11;
-            this.metroTile10.Text = "Clients";
-            this.metroTile10.UseSelectable = true;
+            this.Tile_Clients.ActiveControl = null;
+            this.Tile_Clients.Location = new System.Drawing.Point(379, 430);
+            this.Tile_Clients.Name = "Tile_Clients";
+            this.Tile_Clients.Size = new System.Drawing.Size(152, 101);
+            this.Tile_Clients.Style = MetroFramework.MetroColorStyle.Brown;
+            this.Tile_Clients.TabIndex = 11;
+            this.Tile_Clients.Text = "Clients";
+            this.Tile_Clients.UseSelectable = true;
+            this.Tile_Clients.Click += new System.EventHandler(this.Tile_Clients_Click);
             // 
-            // metroTile11
+            // Tile_Items
             // 
-            this.metroTile11.ActiveControl = null;
-            this.metroTile11.Location = new System.Drawing.Point(63, 430);
-            this.metroTile11.Name = "metroTile11";
-            this.metroTile11.Size = new System.Drawing.Size(152, 101);
-            this.metroTile11.Style = MetroFramework.MetroColorStyle.Brown;
-            this.metroTile11.TabIndex = 10;
-            this.metroTile11.Text = "Items";
-            this.metroTile11.UseSelectable = true;
+            this.Tile_Items.ActiveControl = null;
+            this.Tile_Items.Location = new System.Drawing.Point(63, 430);
+            this.Tile_Items.Name = "Tile_Items";
+            this.Tile_Items.Size = new System.Drawing.Size(152, 101);
+            this.Tile_Items.Style = MetroFramework.MetroColorStyle.Brown;
+            this.Tile_Items.TabIndex = 10;
+            this.Tile_Items.Text = "Items";
+            this.Tile_Items.UseSelectable = true;
             // 
-            // metroTile12
+            // Tile_Packages
             // 
-            this.metroTile12.ActiveControl = null;
-            this.metroTile12.Location = new System.Drawing.Point(221, 430);
-            this.metroTile12.Name = "metroTile12";
-            this.metroTile12.Size = new System.Drawing.Size(152, 101);
-            this.metroTile12.Style = MetroFramework.MetroColorStyle.Brown;
-            this.metroTile12.TabIndex = 9;
-            this.metroTile12.Text = "Packages";
-            this.metroTile12.UseSelectable = true;
+            this.Tile_Packages.ActiveControl = null;
+            this.Tile_Packages.Location = new System.Drawing.Point(221, 430);
+            this.Tile_Packages.Name = "Tile_Packages";
+            this.Tile_Packages.Size = new System.Drawing.Size(152, 101);
+            this.Tile_Packages.Style = MetroFramework.MetroColorStyle.Brown;
+            this.Tile_Packages.TabIndex = 9;
+            this.Tile_Packages.Text = "Packages";
+            this.Tile_Packages.UseSelectable = true;
             // 
-            // metroTile13
+            // Tile_Employees
             // 
-            this.metroTile13.ActiveControl = null;
-            this.metroTile13.Location = new System.Drawing.Point(63, 537);
-            this.metroTile13.Name = "metroTile13";
-            this.metroTile13.Size = new System.Drawing.Size(152, 101);
-            this.metroTile13.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroTile13.TabIndex = 13;
-            this.metroTile13.Text = "Employees";
-            this.metroTile13.UseSelectable = true;
+            this.Tile_Employees.ActiveControl = null;
+            this.Tile_Employees.Location = new System.Drawing.Point(63, 537);
+            this.Tile_Employees.Name = "Tile_Employees";
+            this.Tile_Employees.Size = new System.Drawing.Size(152, 101);
+            this.Tile_Employees.Style = MetroFramework.MetroColorStyle.Orange;
+            this.Tile_Employees.TabIndex = 13;
+            this.Tile_Employees.Text = "Employees";
+            this.Tile_Employees.UseSelectable = true;
             // 
-            // metroTile14
+            // Tile_Logout
             // 
-            this.metroTile14.ActiveControl = null;
-            this.metroTile14.Location = new System.Drawing.Point(221, 537);
-            this.metroTile14.Name = "metroTile14";
-            this.metroTile14.Size = new System.Drawing.Size(152, 101);
-            this.metroTile14.TabIndex = 12;
-            this.metroTile14.Text = "Logout";
-            this.metroTile14.UseSelectable = true;
-            this.metroTile14.Click += new System.EventHandler(this.metroTile14_Click);
+            this.Tile_Logout.ActiveControl = null;
+            this.Tile_Logout.Location = new System.Drawing.Point(221, 537);
+            this.Tile_Logout.Name = "Tile_Logout";
+            this.Tile_Logout.Size = new System.Drawing.Size(152, 101);
+            this.Tile_Logout.TabIndex = 12;
+            this.Tile_Logout.Text = "Logout";
+            this.Tile_Logout.UseSelectable = true;
+            this.Tile_Logout.Click += new System.EventHandler(this.metroTile14_Click);
             // 
             // Main_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(611, 678);
-            this.Controls.Add(this.metroTile13);
-            this.Controls.Add(this.metroTile14);
-            this.Controls.Add(this.metroTile10);
-            this.Controls.Add(this.metroTile11);
-            this.Controls.Add(this.metroTile12);
-            this.Controls.Add(this.metroTile7);
-            this.Controls.Add(this.metroTile8);
-            this.Controls.Add(this.metroTile9);
-            this.Controls.Add(this.metroTile6);
-            this.Controls.Add(this.metroTile5);
-            this.Controls.Add(this.metroTile4);
-            this.Controls.Add(this.metroTile3);
-            this.Controls.Add(this.metroTile2);
-            this.Controls.Add(this.metroTile1);
+            this.Controls.Add(this.Tile_Employees);
+            this.Controls.Add(this.Tile_Logout);
+            this.Controls.Add(this.Tile_Clients);
+            this.Controls.Add(this.Tile_Items);
+            this.Controls.Add(this.Tile_Packages);
+            this.Controls.Add(this.Tile_ServiceReports);
+            this.Controls.Add(this.Tile_ServiceOrder);
+            this.Controls.Add(this.Tile_ServiceNew);
+            this.Controls.Add(this.Tile_PurchaseReports);
+            this.Controls.Add(this.Tile_PurchaseOrder);
+            this.Controls.Add(this.Tile_PurchaseNew);
+            this.Controls.Add(this.Tile_SaleReports);
+            this.Controls.Add(this.Tile_SaleNew);
+            this.Controls.Add(this.Tile_SalesOrder);
             this.Name = "Main_Menu";
             this.Text = "Main Menu";
             this.Load += new System.EventHandler(this.Main_Menu_Load);
@@ -226,19 +227,19 @@
 
         #endregion
 
-        private MetroFramework.Controls.MetroTile metroTile1;
-        private MetroFramework.Controls.MetroTile metroTile2;
-        private MetroFramework.Controls.MetroTile metroTile3;
-        private MetroFramework.Controls.MetroTile metroTile5;
-        private MetroFramework.Controls.MetroTile metroTile4;
-        private MetroFramework.Controls.MetroTile metroTile6;
-        private MetroFramework.Controls.MetroTile metroTile7;
-        private MetroFramework.Controls.MetroTile metroTile8;
-        private MetroFramework.Controls.MetroTile metroTile9;
-        private MetroFramework.Controls.MetroTile metroTile10;
-        private MetroFramework.Controls.MetroTile metroTile11;
-        private MetroFramework.Controls.MetroTile metroTile12;
-        private MetroFramework.Controls.MetroTile metroTile13;
-        private MetroFramework.Controls.MetroTile metroTile14;
+        private MetroFramework.Controls.MetroTile Tile_SalesOrder;
+        private MetroFramework.Controls.MetroTile Tile_SaleNew;
+        private MetroFramework.Controls.MetroTile Tile_SaleReports;
+        private MetroFramework.Controls.MetroTile Tile_PurchaseOrder;
+        private MetroFramework.Controls.MetroTile Tile_PurchaseNew;
+        private MetroFramework.Controls.MetroTile Tile_PurchaseReports;
+        private MetroFramework.Controls.MetroTile Tile_ServiceReports;
+        private MetroFramework.Controls.MetroTile Tile_ServiceOrder;
+        private MetroFramework.Controls.MetroTile Tile_ServiceNew;
+        private MetroFramework.Controls.MetroTile Tile_Clients;
+        private MetroFramework.Controls.MetroTile Tile_Items;
+        private MetroFramework.Controls.MetroTile Tile_Packages;
+        private MetroFramework.Controls.MetroTile Tile_Employees;
+        private MetroFramework.Controls.MetroTile Tile_Logout;
     }
 }
