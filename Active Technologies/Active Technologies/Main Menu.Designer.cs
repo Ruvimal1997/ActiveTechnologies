@@ -54,6 +54,7 @@
             this.Tile_SalesOrder.TabIndex = 0;
             this.Tile_SalesOrder.Text = "Sales Order";
             this.Tile_SalesOrder.UseSelectable = true;
+            this.Tile_SalesOrder.Click += new System.EventHandler(this.Tile_SalesOrder_Click);
             // 
             // Tile_SaleNew
             // 

@@ -36,5 +36,13 @@ namespace Active_Technologies
             c.Show();
             Close();
         }
+
+        private void Tile_SalesOrder_Click(object sender, EventArgs e)
+        {
+            Sales_Order_Details sod = new Sales_Order_Details();
+            sod.Show();
+            Close();
+
+        }
     }
 }
