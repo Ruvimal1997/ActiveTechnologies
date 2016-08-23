@@ -55,6 +55,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Browse Sales Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse Sales Order.Designer.cs">
+      <DependentUpon>Browse Sales Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browse Service Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse Service Orders.Designer.cs">
+      <DependentUpon>Browse Service Orders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Client Registration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +146,18 @@
     <Compile Include="New Purchase Order.Designer.cs">
       <DependentUpon>New Purchase Order.cs</DependentUpon>
     </Compile>
+    <Compile Include="New Sales Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Sales Order.Designer.cs">
+      <DependentUpon>New Sales Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Service Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Service Order.Designer.cs">
+      <DependentUpon>New Service Order.cs</DependentUpon>
+    </Compile>
     <Compile Include="Package Details.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,11 +202,23 @@
     <Compile Include="Purchasing Report.Designer.cs">
       <DependentUpon>Purchasing Report.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sales Order Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Order Details.Designer.cs">
+      <DependentUpon>Sales Order Details.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sales Report.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sales Report.Designer.cs">
       <DependentUpon>Sales Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service Order Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service Order Details.Designer.cs">
+      <DependentUpon>Service Order Details.cs</DependentUpon>
     </Compile>
     <Compile Include="Service Report.cs">
       <SubType>Form</SubType>
@@ -190,6 +226,12 @@
     <Compile Include="Service Report.Designer.cs">
       <DependentUpon>Service Report.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Browse Sales Order.resx">
+      <DependentUpon>Browse Sales Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse Service Orders.resx">
+      <DependentUpon>Browse Service Orders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Client Registration.resx">
       <DependentUpon>Client Registration.cs</DependentUpon>
     </EmbeddedResource>
@@ -229,6 +271,12 @@
     <EmbeddedResource Include="New Purchase Order.resx">
       <DependentUpon>New Purchase Order.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="New Sales Order.resx">
+      <DependentUpon>New Sales Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Service Order.resx">
+      <DependentUpon>New Service Order.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Package Details.resx">
       <DependentUpon>Package Details.cs</DependentUpon>
     </EmbeddedResource>
@@ -259,8 +307,14 @@
     <EmbeddedResource Include="Purchasing Report.resx">
       <DependentUpon>Purchasing Report.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sales Order Details.resx">
+      <DependentUpon>Sales Order Details.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sales Report.resx">
       <DependentUpon>Sales Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service Order Details.resx">
+      <DependentUpon>Service Order Details.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Service Report.resx">
       <DependentUpon>Service Report.cs</DependentUpon>
