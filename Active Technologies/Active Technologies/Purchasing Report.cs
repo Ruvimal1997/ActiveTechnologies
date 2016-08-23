@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace Active_Technologies
 {
-    public partial class Employees : MetroForm
+    public partial class Purchasing_Report : MetroForm
     {
-        public Employees()
+        public Purchasing_Report()
         {
             InitializeComponent();
         }
 
-        private void Employees_Load(object sender, EventArgs e)
+        private void Purchasing_Report_Load(object sender, EventArgs e)
         {
 
         }
