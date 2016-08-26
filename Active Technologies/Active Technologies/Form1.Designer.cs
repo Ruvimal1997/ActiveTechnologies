@@ -33,10 +33,10 @@
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.Txt_Username = new MetroFramework.Controls.MetroTextBox();
             this.Txt_Password = new MetroFramework.Controls.MetroTextBox();
-            this.Btn_Login = new MetroFramework.Controls.MetroButton();
             this.Btn_Cancel = new MetroFramework.Controls.MetroButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.Btn_Login = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             this.SuspendLayout();
@@ -119,16 +119,6 @@
             this.Txt_Password.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Txt_Password.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // Btn_Login
-            // 
-            this.Btn_Login.Location = new System.Drawing.Point(99, 291);
-            this.Btn_Login.Name = "Btn_Login";
-            this.Btn_Login.Size = new System.Drawing.Size(75, 23);
-            this.Btn_Login.TabIndex = 4;
-            this.Btn_Login.Text = "Login";
-            this.Btn_Login.UseSelectable = true;
-            this.Btn_Login.Click += new System.EventHandler(this.metroButton1_Click);
-            // 
             // Btn_Cancel
             // 
             this.Btn_Cancel.Location = new System.Drawing.Point(246, 291);
@@ -147,13 +137,23 @@
             // 
             this.errorProvider2.ContainerControl = this;
             // 
+            // Btn_Login
+            // 
+            this.Btn_Login.Location = new System.Drawing.Point(136, 291);
+            this.Btn_Login.Name = "Btn_Login";
+            this.Btn_Login.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Login.TabIndex = 6;
+            this.Btn_Login.Text = "Login";
+            this.Btn_Login.UseSelectable = true;
+            this.Btn_Login.Click += new System.EventHandler(this.Btn_Login_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(511, 414);
-            this.Controls.Add(this.Btn_Cancel);
             this.Controls.Add(this.Btn_Login);
+            this.Controls.Add(this.Btn_Cancel);
             this.Controls.Add(this.Txt_Password);
             this.Controls.Add(this.Txt_Username);
             this.Controls.Add(this.metroLabel2);
@@ -174,10 +174,10 @@
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroTextBox Txt_Username;
         private MetroFramework.Controls.MetroTextBox Txt_Password;
-        private MetroFramework.Controls.MetroButton Btn_Login;
         private MetroFramework.Controls.MetroButton Btn_Cancel;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.ErrorProvider errorProvider2;
+        private MetroFramework.Controls.MetroButton Btn_Login;
     }
 }
 
