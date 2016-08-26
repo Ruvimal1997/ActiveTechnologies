@@ -17,7 +17,7 @@ namespace Active_Technologies
             public Database()
             {
                 con = new SqlConnection();
-                con.ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=AsiaHospitalManagementSystem;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                con.ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=ActiveTechnologies;Integrated Security=True;Pooling=False";
 
             }
 
@@ -37,7 +37,7 @@ namespace Active_Technologies
                 try
                 {
                     con = new SqlConnection();
-                    con.ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=AsiaHospitalManagementSystem;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                    con.ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=ActiveTechnologies;Integrated Security=True;Pooling=False";
                     con.Open();
                 }
                 catch (SqlException)
@@ -56,7 +56,7 @@ namespace Active_Technologies
                 try
                 {
                     con = new SqlConnection();
-                    con.ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=AsiaHospitalManagementSystem;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                    con.ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=ActiveTechnologies;Integrated Security=True;Pooling=False";
                     con.Open();
                 }
                 catch (SqlException)
@@ -73,7 +73,7 @@ namespace Active_Technologies
             public SqlDataReader showdata(string query2)
             {
                 con = new SqlConnection();
-                con.ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=AsiaHospitalManagementSystem;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                con.ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=ActiveTechnologies;Integrated Security=True;Pooling=False";
                 con.Open();
                 SqlDataReader myReader;
                 SqlCommand myCommand = new SqlCommand(query2, con);

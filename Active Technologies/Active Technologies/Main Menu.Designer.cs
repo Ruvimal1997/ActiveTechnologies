@@ -66,6 +66,7 @@
             this.Tile_SaleNew.TabIndex = 1;
             this.Tile_SaleNew.Text = "New";
             this.Tile_SaleNew.UseSelectable = true;
+            this.Tile_SaleNew.Click += new System.EventHandler(this.Tile_SaleNew_Click);
             // 
             // Tile_SaleReports
             // 
@@ -77,6 +78,7 @@
             this.Tile_SaleReports.TabIndex = 2;
             this.Tile_SaleReports.Text = "Reports";
             this.Tile_SaleReports.UseSelectable = true;
+            this.Tile_SaleReports.Click += new System.EventHandler(this.Tile_SaleReports_Click);
             // 
             // Tile_PurchaseOrder
             // 
@@ -88,6 +90,7 @@
             this.Tile_PurchaseOrder.TabIndex = 4;
             this.Tile_PurchaseOrder.Text = "Purchase Order";
             this.Tile_PurchaseOrder.UseSelectable = true;
+            this.Tile_PurchaseOrder.Click += new System.EventHandler(this.Tile_PurchaseOrder_Click);
             // 
             // Tile_PurchaseNew
             // 
@@ -99,6 +102,7 @@
             this.Tile_PurchaseNew.TabIndex = 3;
             this.Tile_PurchaseNew.Text = "New";
             this.Tile_PurchaseNew.UseSelectable = true;
+            this.Tile_PurchaseNew.Click += new System.EventHandler(this.Tile_PurchaseNew_Click);
             // 
             // Tile_PurchaseReports
             // 
@@ -110,6 +114,7 @@
             this.Tile_PurchaseReports.TabIndex = 5;
             this.Tile_PurchaseReports.Text = "Reports";
             this.Tile_PurchaseReports.UseSelectable = true;
+            this.Tile_PurchaseReports.Click += new System.EventHandler(this.Tile_PurchaseReports_Click);
             // 
             // Tile_ServiceReports
             // 
@@ -121,6 +126,7 @@
             this.Tile_ServiceReports.TabIndex = 8;
             this.Tile_ServiceReports.Text = "Reports";
             this.Tile_ServiceReports.UseSelectable = true;
+            this.Tile_ServiceReports.Click += new System.EventHandler(this.Tile_ServiceReports_Click);
             // 
             // Tile_ServiceOrder
             // 
@@ -132,6 +138,7 @@
             this.Tile_ServiceOrder.TabIndex = 7;
             this.Tile_ServiceOrder.Text = "Service Order";
             this.Tile_ServiceOrder.UseSelectable = true;
+            this.Tile_ServiceOrder.Click += new System.EventHandler(this.Tile_ServiceOrder_Click);
             // 
             // Tile_ServiceNew
             // 
@@ -143,6 +150,7 @@
             this.Tile_ServiceNew.TabIndex = 6;
             this.Tile_ServiceNew.Text = "New";
             this.Tile_ServiceNew.UseSelectable = true;
+            this.Tile_ServiceNew.Click += new System.EventHandler(this.Tile_ServiceNew_Click);
             // 
             // Tile_Clients
             // 
@@ -166,6 +174,7 @@
             this.Tile_Items.TabIndex = 10;
             this.Tile_Items.Text = "Items";
             this.Tile_Items.UseSelectable = true;
+            this.Tile_Items.Click += new System.EventHandler(this.Tile_Items_Click);
             // 
             // Tile_Packages
             // 
@@ -177,6 +186,7 @@
             this.Tile_Packages.TabIndex = 9;
             this.Tile_Packages.Text = "Packages";
             this.Tile_Packages.UseSelectable = true;
+            this.Tile_Packages.Click += new System.EventHandler(this.Tile_Packages_Click);
             // 
             // Tile_Employees
             // 
@@ -188,6 +198,7 @@
             this.Tile_Employees.TabIndex = 13;
             this.Tile_Employees.Text = "Employees";
             this.Tile_Employees.UseSelectable = true;
+            this.Tile_Employees.Click += new System.EventHandler(this.Tile_Employees_Click);
             // 
             // Tile_Logout
             // 
