@@ -18,6 +18,8 @@ namespace Active_Technologies
             InitializeComponent();
         }
 
+
+
         private void Client_Registration_Load(object sender, EventArgs e)
         {
 
@@ -28,6 +30,24 @@ namespace Active_Technologies
             Main_Menu mn = new Main_Menu();
             mn.Show();
             Close();
+        }
+        int clientid,addno,phoneno;
+        string fname, lname, company, email, street, city, title;
+        private void Btn_Save_Click(object sender, EventArgs e)
+        {
+            clientid = Convert.ToInt32(Txt_Client_ID.Text);
+            addno = Convert.ToInt32(Txt_AddNo.Text);
+            phoneno = Convert.ToInt32(Txt_PhoneNo.Text);
+            fname = Txt_Fname.Text;
+            lname = Txt_LName.Text;
+            company = Txt_Company.Text;
+            email = Txt_Email.Text;
+            street = Txt_Street.Text;
+            city = Txt_City.Text;
+            title=Cmb_Title.Text;
+
+
+
         }
     }
 }
