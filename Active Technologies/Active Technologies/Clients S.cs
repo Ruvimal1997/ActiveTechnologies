@@ -17,10 +17,17 @@ namespace Active_Technologies
         {
             InitializeComponent();
         }
-
+        Database db = new Database();
         private void Clients_S_Load(object sender, EventArgs e)
         {
+            metroGrid1.DataSource = db.GetData("select * from Clients");
+        }
 
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            Client_Registration cr = new Client_Registration();
+            cr.Show();
+            Close();
         }
     }
 }
