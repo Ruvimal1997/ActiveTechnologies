@@ -60,7 +60,7 @@ namespace Active_Technologies
             //}
             //username = metroTextBox1.Text;
             //password = metroTextBox2.Text;
-            //String query1 = ("select * from Login_Table where User_Name='" + username + "'and Password='" + password + "'");
+            //String query1 = ("select * from Employees where EmpID='" + username + "'and Password='" + password + "'");
             //DataTable dt = db.GetData(query1);
 
 

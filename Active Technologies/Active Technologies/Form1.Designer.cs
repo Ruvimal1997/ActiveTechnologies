@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_Uname = new MetroFramework.Controls.MetroLabel();
+            this.Lbl_Password = new MetroFramework.Controls.MetroLabel();
             this.Txt_Username = new MetroFramework.Controls.MetroTextBox();
             this.Txt_Password = new MetroFramework.Controls.MetroTextBox();
             this.Btn_Cancel = new MetroFramework.Controls.MetroButton();
@@ -41,23 +41,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             this.SuspendLayout();
             // 
-            // metroLabel1
+            // Lbl_Uname
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(67, 129);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(68, 19);
-            this.metroLabel1.TabIndex = 0;
-            this.metroLabel1.Text = "Username";
+            this.Lbl_Uname.AutoSize = true;
+            this.Lbl_Uname.Location = new System.Drawing.Point(67, 129);
+            this.Lbl_Uname.Name = "Lbl_Uname";
+            this.Lbl_Uname.Size = new System.Drawing.Size(119, 19);
+            this.Lbl_Uname.TabIndex = 0;
+            this.Lbl_Uname.Text = "Username(Emp ID)";
             // 
-            // metroLabel2
+            // Lbl_Password
             // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(67, 186);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(63, 19);
-            this.metroLabel2.TabIndex = 1;
-            this.metroLabel2.Text = "Password";
+            this.Lbl_Password.AutoSize = true;
+            this.Lbl_Password.Location = new System.Drawing.Point(67, 186);
+            this.Lbl_Password.Name = "Lbl_Password";
+            this.Lbl_Password.Size = new System.Drawing.Size(63, 19);
+            this.Lbl_Password.TabIndex = 1;
+            this.Lbl_Password.Text = "Password";
             // 
             // Txt_Username
             // 
@@ -156,8 +156,8 @@
             this.Controls.Add(this.Btn_Cancel);
             this.Controls.Add(this.Txt_Password);
             this.Controls.Add(this.Txt_Username);
-            this.Controls.Add(this.metroLabel2);
-            this.Controls.Add(this.metroLabel1);
+            this.Controls.Add(this.Lbl_Password);
+            this.Controls.Add(this.Lbl_Uname);
             this.Name = "Form1";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -170,8 +170,8 @@
 
         #endregion
 
-        private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroLabel Lbl_Uname;
+        private MetroFramework.Controls.MetroLabel Lbl_Password;
         private MetroFramework.Controls.MetroTextBox Txt_Username;
         private MetroFramework.Controls.MetroTextBox Txt_Password;
         private MetroFramework.Controls.MetroButton Btn_Cancel;
