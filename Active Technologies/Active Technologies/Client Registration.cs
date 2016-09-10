@@ -58,7 +58,7 @@ namespace Active_Technologies
                 if (line == 1)
                 {
 
-                    //string messgae = "Dear Employee, Welcome to Asia Hospital. ";
+                    //string messgae = "Dear Client, Welcome to Active Technologies. ";
                     //SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
                     //client.EnableSsl = true;
                     //client.Timeout = 10000;

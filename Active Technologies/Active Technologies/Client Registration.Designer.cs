@@ -50,11 +50,12 @@
             this.Lbl_Fname = new MetroFramework.Controls.MetroLabel();
             this.Txt_Client_ID = new MetroFramework.Controls.MetroTextBox();
             this.Lbl_Client_ID = new MetroFramework.Controls.MetroLabel();
+            this.Btn_Clear = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // Btn_Back
             // 
-            this.Btn_Back.Location = new System.Drawing.Point(293, 458);
+            this.Btn_Back.Location = new System.Drawing.Point(367, 458);
             this.Btn_Back.Name = "Btn_Back";
             this.Btn_Back.Size = new System.Drawing.Size(75, 23);
             this.Btn_Back.TabIndex = 43;
@@ -209,7 +210,7 @@
             this.Txt_PhoneNo.Enabled = false;
             this.Txt_PhoneNo.Lines = new string[0];
             this.Txt_PhoneNo.Location = new System.Drawing.Point(469, 244);
-            this.Txt_PhoneNo.MaxLength = 32767;
+            this.Txt_PhoneNo.MaxLength = 10;
             this.Txt_PhoneNo.Name = "Txt_PhoneNo";
             this.Txt_PhoneNo.PasswordChar = '\0';
             this.Txt_PhoneNo.ScrollBars = System.Windows.Forms.ScrollBars.None;
@@ -451,11 +452,21 @@
             this.Lbl_Client_ID.TabIndex = 22;
             this.Lbl_Client_ID.Text = "Client ID";
             // 
+            // Btn_Clear
+            // 
+            this.Btn_Clear.Location = new System.Drawing.Point(286, 458);
+            this.Btn_Clear.Name = "Btn_Clear";
+            this.Btn_Clear.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Clear.TabIndex = 44;
+            this.Btn_Clear.Text = "Clear";
+            this.Btn_Clear.UseSelectable = true;
+            // 
             // Client_Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 529);
+            this.Controls.Add(this.Btn_Clear);
             this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.Btn_Save);
             this.Controls.Add(this.Txt_Email);
@@ -510,5 +521,6 @@
         private MetroFramework.Controls.MetroLabel Lbl_Fname;
         private MetroFramework.Controls.MetroTextBox Txt_Client_ID;
         private MetroFramework.Controls.MetroLabel Lbl_Client_ID;
+        private MetroFramework.Controls.MetroButton Btn_Clear;
     }
 }
