@@ -34,7 +34,6 @@
             this.Btn_AddEmp = new MetroFramework.Controls.MetroButton();
             this.Btn_View = new MetroFramework.Controls.MetroButton();
             this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,6 +45,7 @@
             this.Btn_AddEmp.TabIndex = 0;
             this.Btn_AddEmp.Text = "Add Employee";
             this.Btn_AddEmp.UseSelectable = true;
+            this.Btn_AddEmp.Click += new System.EventHandler(this.Btn_AddEmp_Click);
             // 
             // Btn_View
             // 
@@ -74,8 +74,6 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.metroGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
@@ -104,12 +102,6 @@
             this.metroGrid1.Size = new System.Drawing.Size(724, 335);
             this.metroGrid1.TabIndex = 2;
             // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
             // Employee_S
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -131,6 +123,5 @@
         private MetroFramework.Controls.MetroButton Btn_AddEmp;
         private MetroFramework.Controls.MetroButton Btn_View;
         private MetroFramework.Controls.MetroGrid metroGrid1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }

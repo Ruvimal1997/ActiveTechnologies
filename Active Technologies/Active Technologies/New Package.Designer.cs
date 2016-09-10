@@ -49,6 +49,7 @@
             this.Btn_Items.TabIndex = 21;
             this.Btn_Items.Text = "Items";
             this.Btn_Items.UseSelectable = true;
+            this.Btn_Items.Click += new System.EventHandler(this.Btn_Items_Click);
             // 
             // Txt_Desc
             // 

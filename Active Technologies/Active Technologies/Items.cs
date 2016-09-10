@@ -17,10 +17,17 @@ namespace Active_Technologies
         {
             InitializeComponent();
         }
-
+        Database db = new Database();
         private void Items_Load(object sender, EventArgs e)
         {
+            metroGrid1.DataSource = db.GetData("select * from Items");
+        }
 
+        private void Btn_AddItem_Click(object sender, EventArgs e)
+        {
+            New_Item ni = new New_Item();
+            ni.Show();
+            Close();
         }
     }
 }
