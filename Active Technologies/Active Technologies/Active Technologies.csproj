@@ -55,6 +55,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActiveTechnologiesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActiveTechnologiesDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Browse Sales Order.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -319,6 +324,17 @@
     <EmbeddedResource Include="Service Report.resx">
       <DependentUpon>Service Report.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ActiveTechnologiesDataSet.xsc">
+      <DependentUpon>ActiveTechnologiesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ActiveTechnologiesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ActiveTechnologiesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ActiveTechnologiesDataSet.xss">
+      <DependentUpon>ActiveTechnologiesDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

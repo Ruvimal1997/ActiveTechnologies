@@ -51,7 +51,7 @@
             // 
             // Btn_Invoice
             // 
-            this.Btn_Invoice.Location = new System.Drawing.Point(403, 520);
+            this.Btn_Invoice.Location = new System.Drawing.Point(403, 481);
             this.Btn_Invoice.Name = "Btn_Invoice";
             this.Btn_Invoice.Size = new System.Drawing.Size(75, 23);
             this.Btn_Invoice.TabIndex = 58;
@@ -60,7 +60,7 @@
             // 
             // Btn_Back
             // 
-            this.Btn_Back.Location = new System.Drawing.Point(484, 520);
+            this.Btn_Back.Location = new System.Drawing.Point(484, 481);
             this.Btn_Back.Name = "Btn_Back";
             this.Btn_Back.Size = new System.Drawing.Size(75, 23);
             this.Btn_Back.TabIndex = 57;
@@ -69,12 +69,13 @@
             // 
             // Btn_Save
             // 
-            this.Btn_Save.Location = new System.Drawing.Point(322, 520);
+            this.Btn_Save.Location = new System.Drawing.Point(322, 481);
             this.Btn_Save.Name = "Btn_Save";
             this.Btn_Save.Size = new System.Drawing.Size(75, 23);
             this.Btn_Save.TabIndex = 56;
             this.Btn_Save.Text = "Save";
             this.Btn_Save.UseSelectable = true;
+            this.Btn_Save.Click += new System.EventHandler(this.Btn_Save_Click);
             // 
             // Txt_Total
             // 
@@ -91,7 +92,7 @@
             this.Txt_Total.CustomButton.UseSelectable = true;
             this.Txt_Total.CustomButton.Visible = false;
             this.Txt_Total.Lines = new string[0];
-            this.Txt_Total.Location = new System.Drawing.Point(115, 520);
+            this.Txt_Total.Location = new System.Drawing.Point(115, 481);
             this.Txt_Total.MaxLength = 32767;
             this.Txt_Total.Name = "Txt_Total";
             this.Txt_Total.PasswordChar = '\0';
@@ -109,7 +110,7 @@
             // Lbl_Total
             // 
             this.Lbl_Total.AutoSize = true;
-            this.Lbl_Total.Location = new System.Drawing.Point(30, 524);
+            this.Lbl_Total.Location = new System.Drawing.Point(30, 485);
             this.Lbl_Total.Name = "Lbl_Total";
             this.Lbl_Total.Size = new System.Drawing.Size(36, 19);
             this.Lbl_Total.TabIndex = 54;
@@ -130,7 +131,7 @@
             this.Txt_Comments.CustomButton.UseSelectable = true;
             this.Txt_Comments.CustomButton.Visible = false;
             this.Txt_Comments.Lines = new string[0];
-            this.Txt_Comments.Location = new System.Drawing.Point(115, 327);
+            this.Txt_Comments.Location = new System.Drawing.Point(115, 288);
             this.Txt_Comments.MaxLength = 32767;
             this.Txt_Comments.Multiline = true;
             this.Txt_Comments.Name = "Txt_Comments";
@@ -149,7 +150,7 @@
             // Lbl_Comments
             // 
             this.Lbl_Comments.AutoSize = true;
-            this.Lbl_Comments.Location = new System.Drawing.Point(30, 331);
+            this.Lbl_Comments.Location = new System.Drawing.Point(30, 292);
             this.Lbl_Comments.Name = "Lbl_Comments";
             this.Lbl_Comments.Size = new System.Drawing.Size(73, 19);
             this.Lbl_Comments.TabIndex = 52;
@@ -170,7 +171,7 @@
             this.Txt_Discount.CustomButton.UseSelectable = true;
             this.Txt_Discount.CustomButton.Visible = false;
             this.Txt_Discount.Lines = new string[0];
-            this.Txt_Discount.Location = new System.Drawing.Point(465, 280);
+            this.Txt_Discount.Location = new System.Drawing.Point(465, 241);
             this.Txt_Discount.MaxLength = 32767;
             this.Txt_Discount.Name = "Txt_Discount";
             this.Txt_Discount.PasswordChar = '\0';
@@ -188,7 +189,7 @@
             // Lbl_Discount
             // 
             this.Lbl_Discount.AutoSize = true;
-            this.Lbl_Discount.Location = new System.Drawing.Point(392, 284);
+            this.Lbl_Discount.Location = new System.Drawing.Point(392, 245);
             this.Lbl_Discount.Name = "Lbl_Discount";
             this.Lbl_Discount.Size = new System.Drawing.Size(58, 19);
             this.Lbl_Discount.TabIndex = 50;
@@ -209,7 +210,7 @@
             this.Txt_Tax.CustomButton.UseSelectable = true;
             this.Txt_Tax.CustomButton.Visible = false;
             this.Txt_Tax.Lines = new string[0];
-            this.Txt_Tax.Location = new System.Drawing.Point(115, 280);
+            this.Txt_Tax.Location = new System.Drawing.Point(115, 241);
             this.Txt_Tax.MaxLength = 32767;
             this.Txt_Tax.Name = "Txt_Tax";
             this.Txt_Tax.PasswordChar = '\0';
@@ -227,7 +228,7 @@
             // Lbl_Tax
             // 
             this.Lbl_Tax.AutoSize = true;
-            this.Lbl_Tax.Location = new System.Drawing.Point(30, 284);
+            this.Lbl_Tax.Location = new System.Drawing.Point(30, 245);
             this.Lbl_Tax.Name = "Lbl_Tax";
             this.Lbl_Tax.Size = new System.Drawing.Size(27, 19);
             this.Lbl_Tax.TabIndex = 48;
@@ -374,7 +375,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 576);
+            this.ClientSize = new System.Drawing.Size(626, 536);
             this.Controls.Add(this.Btn_Invoice);
             this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.Btn_Save);
